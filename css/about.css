@@ -1,0 +1,28 @@
+.nav li:nth-child(5):after { content: "";border-bottom: 4px solid #48b4ff;display: block;margin: auto;}
+.nav li:nth-child(5) a{ color: #333;}
+.navbar { position: relative;}
+.container1 { margin: auto;width: 940px;}
+/*banner*/
+.about { background: url("../img/contact.png") no-repeat;background-size: 100%;text-align: center;color: #fff;height: 200px;opacity: 1;transition: 1s ease-out;}
+.about h2 { font-size: 26px;line-height: 60px;}
+.about p { font-size: 16px;line-height: 20px;height: 96px;}
+/*who*/
+.who { margin-top: 35px;overflow: hidden;}
+.who h2 { font-size: 26px;color: #333333;line-height: 50px;margin-top: 22px;}
+.who p { font-size: 12px;color: #333333;line-height: 24px;}
+.who .p1 { width: 340px;margin-top: 20px;color: #898989;}
+.who .right .abouttit { padding-left: 70px;}
+.who button { outline:none;width: 87px;background: #40a5fd;height: 27px;border: none;color: #fff;font-size: 13px;margin:20px 0 58px 0;}
+.mtop { margin:50px 0 70px 0;}
+.mtop .abouttit { height: 190px;}
+.btn01 { margin:24px 0 0 70px;}
+.show2 { opacity: 0;}
+.oneimg { transform: translateX(-110%)}
+.twoimg { transform: translateX(130%)}
+.img1 { transform: translateX(-100%)}
+.img2 { transform: translateX(130%)}
+.img1slider { transform: translateX(0);transition: 1s ease-out;}
+.img2slider { transform: translateX(0);transition: 1s ease-out;}
+.oneimgslider { transform: translateX(0);transition: 1s ease-out;}
+.twoimgslider { transform: translateX(0);transition: 1s ease-out;}
+button:hover { color: #40a5fd;background: #fff;font-size: 15px;transition: .5s ease-out;}

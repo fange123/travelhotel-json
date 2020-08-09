@@ -1,0 +1,68 @@
+.nav li:nth-child(2):after { content: "";border-bottom: 4px solid #48b4ff;display: block;margin: auto;}
+.nav li:nth-child(2) a{ color: #333;}
+.navbar { position: relative;}
+.container1 { margin: auto;width: 882px;}
+/*banner*/
+.banner { padding-bottom: 20px; width: 100%;background: url("../img/room-banner.png") no-repeat;padding-top: 158px;background-size: 100%;}
+.room-tit { color: #fff;margin-bottom: 135px;}
+.room-tit h2 { font-size: 50px;color: #ffc33c;line-height: 56px;transform: translateY(-400%)}
+.room-tit .suntit{ font-size: 33px;color: #edc97f;margin-bottom: 16px;transform: translateX(-200%)}
+ .p1{ transform: translateX(-200%);}
+.room-tit .h2ani { transform: translateY(0) rotate(360deg);transition: 1s ease-out;}
+.room-tit .sunnitani { transform: translateX(0);transition: 1.2s ease-out;}
+.room-tit span:nth-child(1) { font-size: 20px;}
+.room-tit span:nth-child(2) { font-size: 25px;margin-bottom: 16px;}
+.room-tit i { font-size: 32px;}
+.banner .sel { color: #fff;}
+.banner .sel li { cursor: pointer; float: left;margin-left: 2px;border-top-right-radius: 5px;border-top-left-radius: 5px;padding: 10px 15px;}
+.banner .sel li:nth-child(1) { background: #2c92f7;}
+.banner .sel li:nth-child(1):hover { }
+.banner .sel li:nth-child(2) { background: #f66248;}
+.banner .sel li:nth-child(3) { background: #b7d738;}
+.banner .sel li:nth-child(4) { background: #faae4c;}
+.banner .sel li:nth-child(5) { background: #65c4fc;}
+.banner .search { padding-top: 10px;background: #fff;width: 100%;display: flex;justify-content: space-around;text-align: center;}
+.banner .search p{ font-size: 13px;color: #979797;line-height: 24px;}
+.banner .search h2{ font-size: 15px;color: #646464;margin-bottom: 12px;line-height: 22px;}
+.banner .search button { color: #fff; width:127px;height: 36px;background: #6633cc;border: none;}
+.banner .search input { border: none;outline: none;width: 134px;}
+.banner .search select { border: none;width: 45px;outline: none;height: 22px;}
+.banner .search > div:nth-child(1) { padding-right: 22px;}
+.banner .search > div { border-right: 1px solid #ccc;}
+.banner .search > div:last-child { border:none;padding-top: 8px;}
+.banner .search .room { padding-right: 27px;}
+/*项目*/
+.hot-text:after{ content: "";border-bottom: 4px solid #48b4ff;display: block;margin: auto;width: 24px;}
+.hot-text h2{ font-size: 28px;color: #666;line-height: 66px;margin-top: 30px;}
+.hot-text p{ font-size: 16px;color: #666;line-height: 24px;margin-bottom: 37px;letter-spacing: 2px;text-indent: 2px;}
+.hot-text { margin-bottom: 10px;}
+.slider { margin:40px auto;display: flex;justify-content: space-between;position: relative;}
+.slider > div { box-sizing: border-box;border: 1px solid transparent;flex: 1;}
+.slider > div img { width: 100%;height: 225px;}
+.slider > div p { width: 262px;color: #999999;font-size: 12px;line-height: 18px;margin:auto;}
+.slider > div .tit{ color: #686868;font-size: 22px;line-height: 58px;}
+.slider > div .subtit { color: #2d261b;font-size: 16px;margin-bottom: 10px;}
+.slider > div:hover .show1 { display: block;}
+.slider .show1 { width: 301.84px; height: 250px;background: #48b4ff;position: absolute;top:184px;display: none;}
+.slider .show1 .tit,.slider .show1 .subtit,.slider .show1 p { color: #fff;}
+.slider .show1 .tit { margin-top: 10px;}
+.slider .show1 .subtit { line-height: 50px;}
+.slider .show1 p { margin-top: 10px;}
+.show1 .tit:after { content: "";display: block;border-bottom: 2px solid #fec240;width: 20px;margin: auto;}
+/*客房详情*/
+.detailtit { margin-top: 30px; height: 160px;}
+.room-text { color: #fff;padding-top: 68px;}
+.room-text h2{ font-size: 26px;line-height: 58px;}
+.room-text p{ font-size: 15px;line-height: 24px;}
+.roomlist img { float: left;}
+.roomlist img:hover { transform: scale(1.2);transition: .8s ease-out;}
+.detailtext { float: left;margin-left: 40px;}
+.pro01 h2 { color: #484646;font-size: 22px;line-height: 38px;margin-top: 5px;}
+.pro01 { overflow: hidden;margin-top: 54px;}
+.pro01 .money{ color: #48b4ff;}
+.pro01 .day{ font-size: 12px;}
+.pro01 p { color: #484646;font-size: 12px;line-height: 22px;}
+.pro01 button{ width: 138px;height: 36px;background: #48b4ff;border: none;color: #fff;margin-top: 36px;}
+.pro01 button:hover { box-shadow: 2px 2px 2px #ccc;font-size: 14px;transition: .2s ease-out;}
+.pro01 .btn1{ margin-top: 60px;}
+.lastpro { margin-bottom: 80px;}

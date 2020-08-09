@@ -1,0 +1,49 @@
+.navbar { position: relative;}
+.container1 { margin: auto;width: 900px;}
+.nav li:nth-child(4):after { content: "";border-bottom: 4px solid #48b4ff;display: block;margin: auto;}
+.nav li:nth-child(4) a{ color: #333;}
+/*banner*/
+.meetingbg { background: url("../img/contact.png") no-repeat;background-size: 100%;height: 200px;}
+.meetingtit { padding-top: 70px; margin-bottom:90px;color: #fff;text-align: center;}
+.meetingtit h2 { font-size: 56px;opacity: .5;}
+.meetingtit .white { opacity: 1;line-height: 70px;}
+.meetingtit span { padding-top: 2px; font-size: 20px;width: 30px;height: 30px;border: 2px solid rgba(255,255,255,.5);display: inline-block;margin-left: 15px;}
+.meetingtit p { margin-top: 20px;}
+/*设备*/
+#shebei { height: 425px;}
+.shebei-text { margin-top: 50px;}
+.shebei-text h2 { font-size: 28px;line-height: 40px;color: #ccc;margin-bottom: 20px;}
+.shebei-text p { font-size: 14px;line-height: 24px;color: #cccccc;}
+.shebei-text:after{ content: "";border-bottom: 4px solid #48b4ff;display: block;margin: auto;width: 24px;}
+.tit { padding:45px 0 20px;font-size: 16px;color: #666666;line-height: 27px;text-align: center;opacity: 0;}
+.counter .counter-content{ width: 134px;height: 94px; padding: 30px 0; margin: 0 auto 20px; z-index: 1;position: relative;transition: all 0.3s ease 0s;}
+.counter .counter-icon{ display: block;font-size: 50px;color: #48b4ff;line-height: 50px;}
+.counter { text-align: center;}
+.counter .counter-value{ font-size: 48px;font-weight: 500; color: #48b4ff; line-height: 60px;}
+.counter .title{ padding: 5px 25px;font-size: 16px;font-weight: 400;color: #999;text-transform: capitalize;margin: 0;}
+.span { font-size: 14px;color: #ccc;}
+/*宴会厅*/
+.yanhui { background: url("../img/yanhui.png") no-repeat bottom;background-size: contain;}
+.hall { overflow: hidden;margin-top: 120px;}
+.hall h2 { font-size: 23px;color: #343434;line-height: 30px;}
+.hall h2 span{ color: #b2b2b2;}
+.hall .tit1 { margin:110px 0 85px 0;}
+.hall .tit1 h2 { line-height: 56px;color: #2b3236;font-size: 20px;}
+.hall .tit1 h2:after { content: "";display: block;width: 44px;border-bottom: 2px solid #48b4ff;}
+.hall .tit1 p{ width: 490px;font-size: 12px;color: #979797;line-height: 24px;margin-top: 20px;}
+.hall .tit1 button { outline:none;width: 132px;background: #40a5fd;height: 35px;border: none;color: #fff;font-size: 13px;margin-top: 46px;}
+.hall .tit1 button:hover { color: #40A5FD;background: #fff;border: 1px solid #40A5FD;}
+.hall1 { display: flex;justify-content: space-between;margin: 80px auto 60px ;}
+.halllist { color: #999;font-size: 16px;}
+.halllist { margin-bottom: 22px;position: relative;}
+.halllist .halltit { position: absolute;top:10%;left: 9%;text-align: center;display: none;}
+.halllist:hover .halltit { display: block; }
+.halllist .halltit h2 { font-size: 16px;color: #fff;line-height: 30px;}
+.halllist .tit2 { margin-left: 27%;}
+.halllist ul{ margin-top: 40px;height: 265px;}
+.halllist li{ color: #999;font-size: 16px;line-height: 28px;}
+.halllist button { outline:none;width: 115px;background: #40a5fd;height: 34px;border: none;color: #fff;font-size: 13px;margin-top: 46px;}
+.halllist button:hover { color: #40A5FD;background: #fff;border: 1px solid #40A5FD;}
+.video { margin-bottom: 90px;position: relative;}
+.video video { border: none;outline: none;}
+.video i { position: absolute;top:50%;left: 50%;margin: -20px 0 0 -38px;cursor: pointer;}

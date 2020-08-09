@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="img/heart01.png">
+    <title>room</title>
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/reset.css" rel="stylesheet">
+    <link href="css/public.css" rel="stylesheet">
+    <link href="css/flatpickr.min.css" rel="stylesheet">
+    <link href="css/room.css" rel="stylesheet">
+    <!--[if lt IE 9]>
+    <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+<!--导航栏-->
+<nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+        </div>
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="container">
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <h2 class="logo1"><img src="img/logo.png" alt=""></h2>
+                <ul class="nav navbar-nav">
+                    <li><a href="index.html">首页</a></li>
+                    <li><a href="room.html">客房</a></li>
+                    <li><a href="hotel.html">酒店快讯</a></li>
+                    <li><a href="meeting.html">会议及宴会</a></li>
+                    <li><a href="about.html">关于我们</a></li>
+                    <li><a href="contact.html">联系我们</a></li>
+                </ul>
+            </div><!-- /.navbar-collapse -->
+        </div>
+    </div><!-- /.container-fluid -->
+</nav>
+<!--banner-->
+<div class="banner">
+    <div class="container1">
+        <div class="room-tit">
+            <h2>BECORATIVE</h2>
+            <p class="suntit">DESIGN</p>
+            <p class="p1"><span><i>一</i>&nbsp;每时每刻</span><span>&nbsp;/&nbsp;尽享尊贵</span></p>
+        </div>
+        <!--计时器-->
+        <ul class="sel">
+            <li>酒店预订</li>
+            <li>贵宾服务</li>
+            <li>进出港服务</li>
+            <li>中转服务</li>
+            <li>公务机服务</li>
+        </ul>
+        <div class="search">
+            <div>
+                <p>Quick search</p>
+                <h2>快速查找酒店</h2>
+            </div>
+            <div>
+                <p class="text-left">入住时间</p>
+                <h2><input type="text" id="flatpickr-tryme" placeholder="2020-08-07"></h2>
+            </div>
+            <div>
+                <p class="text-left">离店时间</p>
+                <h2><input type="text" id="flatpickr-tryme1" placeholder="2020-08-09"></h2>
+            </div>
+            <div class="room">
+                <p>客房</p>
+                <select>
+                    <option value="">01</option>
+                    <option value="">02</option>
+                    <option value="">03</option>
+                </select>
+            </div>
+            <div class="room">
+                <p>成人</p>
+                <select>
+                    <option value="">01</option>
+                    <option value="">02</option>
+                    <option value="">03</option>
+                </select>
+            </div>
+            <div>
+                <button>查找预定</button>
+            </div>
+        </div>
+
+    </div>
+</div>
+<!--project-->
+<div class="container-fluid">
+    <div class="container1">
+        <div class="hot-text text-center">
+            <h2>服务项目</h2>
+            <p>PREFERENTIAL ACTIVITIES</p>
+        </div>
+    </div>
+    <div class="slider text-center" id="slider">
+        <div class="div"></div>
+        <div class="div"></div>
+        <div class="div"></div>
+        <div class="div"></div>
+        <div class="div"></div>
+    </div>
+</div>
+<!--客房详情-->
+<div class="container-fluid">
+    <div class="detailtit">
+        <div class="hot-text text-center">
+            <h2>客房详情介绍</h2>
+            <p>ROOM DETAILS</p>
+        </div>
+    </div>
+    <div class="container1 roomlist">
+        <div class="pro01"></div>
+        <div class="pro01"></div>
+        <div class="pro01 lastpro"></div>
+    </div>
+</div>
+
+<!--footer-->
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-2 col-md-offset-1">
+                <h1 class="logo"><img src="img/logo.png" alt=""></h1>
+            </div>
+            <div class="col-md-3">
+                <h2>地址</h2>
+                <p>长春大学6543号</p>
+            </div>
+            <div class="col-md-3">
+                <h2>联系我们</h2>
+                <p><span>T.</span>189-4300-6095</p>
+                <p><span>E.</span>fange@qq.com</p>
+            </div>
+            <div class="col-md-3">
+                <h2>关注我们</h2>
+                <p><i><img src="img/footerr-qq.png" alt=""></i><i><img src="img/footer-wb.png" alt=""></i><i><img
+                        src="img/footer-wx.png" alt=""></i></p>
+            </div>
+        </div>
+    </div>
+</footer>
+<script src="js/jquery.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/flatpickr.js"></script>
+<script src="js/room.js"></script>
+</body>
+</html>
